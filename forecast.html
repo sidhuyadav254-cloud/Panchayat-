@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Forecast | Panchayat Weather AI</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+<aside class="sidebar">
+
+    <div class="sidebar-logo">
+        📅
+        <div>
+            <strong>Panchayat</strong>
+            <small>Weather AI</small>
+        </div>
+    </div>
+
+    <div class="sidebar-location">
+        📍
+        <div>
+            <small>Monitoring</small>
+            <strong>Chegunta</strong>
+        </div>
+    </div>
+
+    <nav class="sidebar-nav">
+
+        <a href="dashboard.html">📊 Dashboard</a>
+        <a href="weather.html">🌤️ Weather</a>
+        <a href="ai-prediction.html">🤖 AI Prediction</a>
+        <a href="alerts.html">🚨 Alerts</a>
+        <a class="active" href="forecast.html">📅 Forecast</a>
+        <a href="recommendations.html">🌾 Recommendations</a>
+        <a href="panchayat.html">🏛️ Panchayat Actions</a>
+        <a href="reports.html">📈 Reports</a>
+
+    </nav>
+
+</aside>
+
+
+<main class="dashboard-main">
+
+<header class="dashboard-header">
+
+    <div>
+
+        <span class="section-label">
+            WEATHER FORECAST
+        </span>
+
+        <h1>7-Day Forecast 📅</h1>
+
+        <p>
+            Plan ahead using upcoming weather conditions.
+        </p>
+
+    </div>
+
+</header>
+
+
+<section class="dashboard-card"
+         style="margin-top:30px;">
+
+    <div class="card-title">
+
+        <h3>🌦️ Weekly Forecast</h3>
+
+        <span>Chegunta</span>
+
+    </div>
+
+
+    <div class="forecast-row"
+         style="margin-top:30px;">
+
+        <div>
+            <small>Today</small>
+            ☀️
+            <strong>31°C</strong>
+            <small>Low Risk</small>
+        </div>
+
+        <div>
+            <small>Tue</small>
+            🌧️
+            <strong>30°C</strong>
+            <small>Medium</small>
+        </div>
+
+        <div>
+            <small>Wed</small>
+            🌧️
+            <strong>28°C</strong>
+            <small>High</small>
+        </div>
+
+        <div>
+            <small>Thu</small>
+            ⛅
+            <strong>29°C</strong>
+            <small>Medium</small>
+        </div>
+
+    </div>
+
+
+    <div class="forecast-row"
+         style="margin-top:15px;">
+
+        <div>
+            <small>Fri</small>
+            ☀️
+            <strong>32°C</strong>
+            <small>Low</small>
+        </div>
+
+        <div>
+            <small>Sat</small>
+            🌤️
+            <strong>33°C</strong>
+            <small>Low</small>
+        </div>
+
+        <div>
+            <small>Sun</small>
+            🌧️
+            <strong>29°C</strong>
+            <small>Medium</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WEEKLY SUMMARY -->
+
+<section class="three-column">
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">
+            🌧️
+        </div>
+
+        <small>EXPECTED RAIN</small>
+
+        <h2>68 mm</h2>
+
+        <p>
+            Expected rainfall this week.
+        </p>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">
+            🌡️
+        </div>
+
+        <small>MAX TEMPERATURE</small>
+
+        <h2>33°C</h2>
+
+        <p>
+            Expected maximum temperature.
+        </p>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">
+            ⚠️
+        </div>
+
+        <small>RISK DAYS</small>
+
+        <h2>3</h2>
+
+        <p>
+            Days requiring attention.
+        </p>
+
+    </div>
+
+</section>
+
+
+<button class="primary-btn"
+        onclick="goTo('recommendations.html')"
+        style="margin-top:20px;">
+
+    View Farmer Recommendations →
+
+</button>
+
+</main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
