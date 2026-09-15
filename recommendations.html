@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Recommendations | Panchayat Weather AI</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+<aside class="sidebar">
+
+    <div class="sidebar-logo">
+        🌾
+        <div>
+            <strong>Panchayat</strong>
+            <small>Weather AI</small>
+        </div>
+    </div>
+
+    <div class="sidebar-location">
+        📍
+        <div>
+            <small>Monitoring</small>
+            <strong>Chegunta</strong>
+        </div>
+    </div>
+
+    <nav class="sidebar-nav">
+
+        <a href="dashboard.html">📊 Dashboard</a>
+        <a href="weather.html">🌤️ Weather</a>
+        <a href="ai-prediction.html">🤖 AI Prediction</a>
+        <a href="alerts.html">🚨 Alerts</a>
+        <a href="forecast.html">📅 Forecast</a>
+
+        <a class="active"
+           href="recommendations.html">
+            🌾 Recommendations
+        </a>
+
+        <a href="panchayat.html">
+            🏛️ Panchayat Actions
+        </a>
+
+        <a href="reports.html">📈 Reports</a>
+
+    </nav>
+
+</aside>
+
+
+<main class="dashboard-main">
+
+<header class="dashboard-header">
+
+    <div>
+
+        <span class="section-label">
+            SMART FARMER GUIDANCE
+        </span>
+
+        <h1>Recommendations 🌾</h1>
+
+        <p>
+            Simple actions based on predicted weather risks.
+        </p>
+
+    </div>
+
+</header>
+
+
+<!-- MAIN RECOMMENDATION -->
+
+<section class="alert-banner"
+         style="margin-top:30px;">
+
+    <div class="alert-symbol">
+        🌧️
+    </div>
+
+    <div class="alert-content">
+
+        <span>HIGH PRIORITY RECOMMENDATION</span>
+
+        <h3>
+            Heavy rainfall is expected.
+        </h3>
+
+        <p>
+            Take preventive measures before rainfall begins.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ACTIONS -->
+
+<section class="three-column">
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">
+            🌾
+        </div>
+
+        <h3>Protect Harvest</h3>
+
+        <p class="recommendation-text">
+            Move harvested crops to a safe
+            and covered location.
+        </p>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">
+            🧪
+        </div>
+
+        <h3>Avoid Spraying</h3>
+
+        <p class="recommendation-text">
+            Avoid pesticide and fertilizer
+            application before heavy rainfall.
+        </p>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">
+            💧
+        </div>
+
+        <h3>Check Drainage</h3>
+
+        <p class="recommendation-text">
+            Keep farm drainage channels
+            clear to reduce waterlogging.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- MORE -->
+
+<section class="dashboard-card"
+         style="margin-top:20px;">
+
+    <div class="card-title">
+
+        <h3>✅ Recommended Actions</h3>
+
+    </div>
+
+    <div class="risk-list">
+
+        <div>
+            <span>Protect harvested crops</span>
+            <strong class="high-text">URGENT</strong>
+        </div>
+
+        <div>
+            <span>Move livestock to safe areas</span>
+            <strong>RECOMMENDED</strong>
+        </div>
+
+        <div>
+            <span>Clear drainage channels</span>
+            <strong>RECOMMENDED</strong>
+        </div>
+
+        <div>
+            <span>Avoid low-lying areas</span>
+            <strong>IMPORTANT</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<button class="primary-btn"
+        onclick="goTo('panchayat.html')"
+        style="margin-top:20px;">
+
+    Panchayat Action Center →
+
+</button>
+
+</main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
