@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Prediction | Panchayat Weather AI</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+<aside class="sidebar">
+
+    <div class="sidebar-logo">
+        🤖
+        <div>
+            <strong>Panchayat</strong>
+            <small>Weather AI</small>
+        </div>
+    </div>
+
+    <div class="sidebar-location">
+        📍
+        <div>
+            <small>Monitoring</small>
+            <strong>Chegunta</strong>
+        </div>
+    </div>
+
+    <nav class="sidebar-nav">
+
+        <a href="dashboard.html">📊 Dashboard</a>
+
+        <a href="weather.html">🌤️ Weather</a>
+
+        <a class="active" href="ai-prediction.html">
+            🤖 AI Prediction
+        </a>
+
+        <a href="alerts.html">🚨 Alerts</a>
+
+        <a href="forecast.html">📅 Forecast</a>
+
+        <a href="recommendations.html">
+            🌾 Recommendations
+        </a>
+
+        <a href="panchayat.html">
+            🏛️ Panchayat Actions
+        </a>
+
+        <a href="reports.html">📈 Reports</a>
+
+    </nav>
+
+</aside>
+
+
+<main class="dashboard-main">
+
+<header class="dashboard-header">
+
+    <div>
+
+        <span class="section-label">
+            ARTIFICIAL INTELLIGENCE
+        </span>
+
+        <h1>AI Risk Prediction 🤖</h1>
+
+        <p>
+            AI analyzes weather parameters to identify possible risks.
+        </p>
+
+    </div>
+
+</header>
+
+
+<!-- AI STATUS -->
+
+<section class="dashboard-card"
+         style="margin-top:25px;">
+
+    <div class="card-heading">
+
+        <div>
+
+            <small>AI MODEL STATUS</small>
+
+            <h2>Analysis Complete</h2>
+
+            <span>
+                Weather parameters successfully analyzed
+            </span>
+
+        </div>
+
+        <div class="ai-icon">
+            🤖
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RISK CARDS -->
+
+<section class="three-column">
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">🌧️</div>
+
+        <small>HEAVY RAIN</small>
+
+        <h2 class="high-text">HIGH</h2>
+
+        <p>
+            Probability: <strong>78%</strong>
+        </p>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">🌊</div>
+
+        <small>FLOOD RISK</small>
+
+        <h2 class="medium-text">MEDIUM</h2>
+
+        <p>
+            Probability: <strong>54%</strong>
+        </p>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">🌾</div>
+
+        <small>CROP DAMAGE</small>
+
+        <h2 class="high-text">HIGH</h2>
+
+        <p>
+            Probability: <strong>72%</strong>
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ANALYSIS -->
+
+<section class="dashboard-card"
+         style="margin-top:20px;">
+
+    <div class="card-title">
+
+        <h3>🔍 AI Analysis</h3>
+
+    </div>
+
+    <div class="risk-list">
+
+        <div>
+            <span>Temperature</span>
+            <strong>31°C</strong>
+        </div>
+
+        <div>
+            <span>Humidity</span>
+            <strong>68%</strong>
+        </div>
+
+        <div>
+            <span>Rainfall</span>
+            <strong>12 mm</strong>
+        </div>
+
+        <div>
+            <span>Wind Speed</span>
+            <strong>14 km/h</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RESULT -->
+
+<section class="alert-banner"
+         style="margin-top:20px;">
+
+    <div class="alert-symbol">
+        🚨
+    </div>
+
+    <div class="alert-content">
+
+        <span>AI PREDICTION RESULT</span>
+
+        <h3>
+            Heavy rainfall may occur within 6 hours.
+        </h3>
+
+        <p>
+            Immediate preparation is recommended
+            for vulnerable agricultural areas.
+        </p>
+
+    </div>
+
+</section>
+
+
+<button class="primary-btn"
+        onclick="goTo('alerts.html')"
+        style="margin-top:20px;">
+
+    Generate Smart Alert →
+
+</button>
+
+</main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+  </html>
