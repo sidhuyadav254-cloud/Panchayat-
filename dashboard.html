@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard | Panchayat Weather AI</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+    <div class="sidebar-logo">
+        🌦️
+        <div>
+            <strong>Panchayat</strong>
+            <small>Weather AI</small>
+        </div>
+    </div>
+
+
+    <div class="sidebar-location">
+
+        📍
+
+        <div>
+            <small>Monitoring</small>
+            <strong>Chegunta</strong>
+        </div>
+
+    </div>
+
+
+    <nav class="sidebar-nav">
+
+        <a class="active" href="dashboard.html">
+            📊 Dashboard
+        </a>
+
+        <a href="weather.html">
+            🌤️ Weather
+        </a>
+
+        <a href="ai-prediction.html">
+            🤖 AI Prediction
+        </a>
+
+        <a href="alerts.html">
+            🚨 Alerts
+        </a>
+
+        <a href="forecast.html">
+            📅 Forecast
+        </a>
+
+        <a href="recommendations.html">
+            🌾 Recommendations
+        </a>
+
+        <a href="panchayat.html">
+            🏛️ Panchayat Actions
+        </a>
+
+        <a href="reports.html">
+            📈 Reports
+        </a>
+
+    </nav>
+
+
+    <div class="sidebar-bottom">
+
+        <div class="ai-status">
+
+            <span class="pulse-dot"></span>
+
+            <div>
+                <strong>AI System Active</strong>
+                <small>Monitoring continuously</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</aside>
+
+
+<!-- MAIN -->
+
+<main class="dashboard-main">
+
+
+<header class="dashboard-header">
+
+    <div>
+
+        <span class="section-label">
+            PANCHAYAT WEATHER INTELLIGENCE
+        </span>
+
+        <h1>
+            Good Evening 👋
+        </h1>
+
+        <p>
+            Here's today's weather intelligence for Chegunta Panchayat.
+        </p>
+
+    </div>
+
+
+    <div class="header-actions">
+
+        <div class="notification">
+            🔔
+            <span>3</span>
+        </div>
+
+        <div class="profile">
+            👤
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- WEATHER + AI -->
+
+<section class="dashboard-grid">
+
+
+    <!-- WEATHER CARD -->
+
+    <div class="dashboard-card current-weather">
+
+        <div class="card-heading">
+
+            <div>
+
+                <small>CURRENT WEATHER</small>
+
+                <h2>31°C</h2>
+
+                <span>Partly Cloudy</span>
+
+            </div>
+
+            <span class="big-weather-icon">☀️</span>
+
+        </div>
+
+
+        <div class="weather-mini-grid">
+
+            <div>
+                💧
+                <small>Humidity</small>
+                <strong>68%</strong>
+            </div>
+
+            <div>
+                🌧️
+                <small>Rainfall</small>
+                <strong>12 mm</strong>
+            </div>
+
+            <div>
+                💨
+                <small>Wind</small>
+                <strong>14 km/h</strong>
+            </div>
+
+            <div>
+                🌡️
+                <small>Feels Like</small>
+                <strong>33°C</strong>
+            </div>
+
+        </div>
+
+        <button class="outline-btn"
+                onclick="goTo('weather.html')">
+
+            View Weather Details →
+
+        </button>
+
+    </div>
+
+
+    <!-- AI CARD -->
+
+    <div class="dashboard-card ai-card">
+
+        <div class="card-heading">
+
+            <div>
+
+                <small>🤖 AI RISK ANALYSIS</small>
+
+                <h2>Risk Level</h2>
+
+            </div>
+
+            <span class="risk-badge high">
+                HIGH
+            </span>
+
+        </div>
+
+
+        <div class="risk-list">
+
+            <div>
+                <span>🌧️ Heavy Rain</span>
+                <strong class="high-text">HIGH</strong>
+            </div>
+
+            <div>
+                <span>🌊 Flood</span>
+                <strong class="medium-text">MEDIUM</strong>
+            </div>
+
+            <div>
+                <span>🌾 Crop Damage</span>
+                <strong class="high-text">HIGH</strong>
+            </div>
+
+            <div>
+                <span>🔥 Heatwave</span>
+                <strong class="low-text">LOW</strong>
+            </div>
+
+        </div>
+
+
+        <button
+            class="primary-btn small-btn"
+            onclick="goTo('ai-prediction.html')">
+
+            View AI Analysis →
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ALERT -->
+
+<section class="alert-banner">
+
+    <div class="alert-symbol">
+        🚨
+    </div>
+
+    <div class="alert-content">
+
+        <span>HIGH PRIORITY WEATHER ALERT</span>
+
+        <h3>
+            Heavy rainfall expected within the next 6 hours
+        </h3>
+
+        <p>
+            Farmers are advised to protect harvested crops
+            and avoid low-lying areas.
+        </p>
+
+    </div>
+
+    <button
+        class="alert-button"
+        onclick="goTo('alerts.html')">
+
+        View Alert →
+
+    </button>
+
+</section>
+
+
+<!-- LOWER CARDS -->
+
+<section class="three-column">
+
+
+    <div class="dashboard-card">
+
+        <div class="card-title">
+            <h3>📅 7-Day Forecast</h3>
+            <a href="forecast.html">View All</a>
+        </div>
+
+        <div class="forecast-row">
+
+            <div>
+                <small>Today</small>
+                ☀️
+                <strong>31°</strong>
+            </div>
+
+            <div>
+                <small>Tue</small>
+                🌧️
+                <strong>30°</strong>
+            </div>
+
+            <div>
+                <small>Wed</small>
+                🌧️
+                <strong>28°</strong>
+            </div>
+
+            <div>
+                <small>Thu</small>
+                ⛅
+                <strong>29°</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="card-title">
+
+            <h3>🌾 Recommendation</h3>
+
+        </div>
+
+        <p class="recommendation-text">
+
+            Heavy rain is expected.
+            Protect harvested crops and avoid
+            pesticide spraying before rainfall.
+
+        </p>
+
+        <button
+            class="outline-btn"
+            onclick="goTo('recommendations.html')">
+
+            View Recommendations
+
+        </button>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="card-title">
+
+            <h3>📊 Today's Status</h3>
+
+        </div>
+
+        <div class="status-number">
+
+            <strong>3</strong>
+
+            <span>Active Alerts</span>
+
+        </div>
+
+        <div class="status-number">
+
+            <strong>24</strong>
+
+            <span>Alerts This Month</span>
+
+        </div>
+
+        <button
+            class="outline-btn"
+            onclick="goTo('reports.html')">
+
+            View Reports
+
+        </button>
+
+    </div>
+
+</section>
+
+
+</main>
+
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+  </html>
