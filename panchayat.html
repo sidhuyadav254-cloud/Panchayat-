@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Panchayat Actions | Panchayat Weather AI</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+<aside class="sidebar">
+
+    <div class="sidebar-logo">
+        🏛️
+        <div>
+            <strong>Panchayat</strong>
+            <small>Weather AI</small>
+        </div>
+    </div>
+
+    <div class="sidebar-location">
+        📍
+        <div>
+            <small>Monitoring</small>
+            <strong>Chegunta</strong>
+        </div>
+    </div>
+
+    <nav class="sidebar-nav">
+
+        <a href="dashboard.html">📊 Dashboard</a>
+        <a href="weather.html">🌤️ Weather</a>
+        <a href="ai-prediction.html">🤖 AI Prediction</a>
+        <a href="alerts.html">🚨 Alerts</a>
+        <a href="forecast.html">📅 Forecast</a>
+        <a href="recommendations.html">🌾 Recommendations</a>
+
+        <a class="active"
+           href="panchayat.html">
+            🏛️ Panchayat Actions
+        </a>
+
+        <a href="reports.html">📈 Reports</a>
+
+    </nav>
+
+</aside>
+
+
+<main class="dashboard-main">
+
+<header class="dashboard-header">
+
+    <div>
+
+        <span class="section-label">
+            PANCHAYAT CONTROL CENTER
+        </span>
+
+        <h1>Action Center 🏛️</h1>
+
+        <p>
+            Monitor risks and coordinate local response.
+        </p>
+
+    </div>
+
+</header>
+
+
+<!-- STATUS -->
+
+<section class="three-column"
+         style="margin-top:30px;">
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">🚨</div>
+
+        <small>ACTIVE ALERTS</small>
+
+        <h2>3</h2>
+
+        <p>Require attention</p>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">🏘️</div>
+
+        <small>AFFECTED AREAS</small>
+
+        <h2>2</h2>
+
+        <p>Villages at risk</p>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">👨‍🌾</div>
+
+        <small>FARMERS TO NOTIFY</small>
+
+        <h2>248</h2>
+
+        <p>Estimated recipients</p>
+
+    </div>
+
+</section>
+
+
+<!-- ACTIONS -->
+
+<section class="dashboard-grid"
+         style="margin-top:20px;">
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">
+            📢
+        </div>
+
+        <h3>Notify Farmers</h3>
+
+        <p class="recommendation-text">
+            Send weather alerts and recommendations
+            to registered farmers.
+        </p>
+
+        <button class="primary-btn"
+                onclick="showDemoAlert()">
+
+            Send Alert
+
+        </button>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <div class="feature-icon">
+            📍
+        </div>
+
+        <h3>Risk Areas</h3>
+
+        <p class="recommendation-text">
+            Identify villages that may require
+            immediate attention.
+        </p>
+
+        <button class="outline-btn">
+
+            View Risk Areas
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- RESPONSE -->
+
+<section class="dashboard-card"
+         style="margin-top:20px;">
+
+    <div class="card-title">
+
+        <h3>📋 Response Checklist</h3>
+
+    </div>
+
+    <div class="risk-list">
+
+        <div>
+            <span>Weather alert generated</span>
+            <strong class="low-text">✓ DONE</strong>
+        </div>
+
+        <div>
+            <span>Farmers notified</span>
+            <strong class="low-text">✓ DONE</strong>
+        </div>
+
+        <div>
+            <span>Low-lying areas monitored</span>
+            <strong class="medium-text">PENDING</strong>
+        </div>
+
+        <div>
+            <span>Emergency team informed</span>
+            <strong class="medium-text">PENDING</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<button class="primary-btn"
+        onclick="goTo('reports.html')"
+        style="margin-top:20px;">
+
+    View Reports →
+
+</button>
+
+</main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
