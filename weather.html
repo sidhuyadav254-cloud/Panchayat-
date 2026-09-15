@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather | Panchayat Weather AI</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            🌦️
+            <div>
+                <strong>Panchayat</strong>
+                <small>Weather AI</small>
+            </div>
+        </div>
+
+        <div class="sidebar-location">
+            📍
+            <div>
+                <small>Monitoring</small>
+                <strong>Chegunta</strong>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+
+            <a href="dashboard.html">📊 Dashboard</a>
+
+            <a class="active" href="weather.html">🌤️ Weather</a>
+
+            <a href="ai-prediction.html">🤖 AI Prediction</a>
+
+            <a href="alerts.html">🚨 Alerts</a>
+
+            <a href="forecast.html">📅 Forecast</a>
+
+            <a href="recommendations.html">🌾 Recommendations</a>
+
+            <a href="panchayat.html">🏛️ Panchayat Actions</a>
+
+            <a href="reports.html">📈 Reports</a>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- MAIN -->
+
+    <main class="dashboard-main">
+
+        <header class="dashboard-header">
+
+            <div>
+
+                <span class="section-label">
+                    LIVE WEATHER MONITORING
+                </span>
+
+                <h1>Current Weather 🌤️</h1>
+
+                <p>
+                    Real-time weather conditions for Chegunta Panchayat.
+                </p>
+
+            </div>
+
+        </header>
+
+
+        <!-- MAIN WEATHER -->
+
+        <section class="dashboard-grid">
+
+            <div class="dashboard-card">
+
+                <div class="card-heading">
+
+                    <div>
+
+                        <small>CURRENT TEMPERATURE</small>
+
+                        <h2>31°C</h2>
+
+                        <span>Partly Cloudy</span>
+
+                    </div>
+
+                    <span class="big-weather-icon">
+                        ☀️
+                    </span>
+
+                </div>
+
+                <button class="primary-btn small-btn"
+                        onclick="goTo('forecast.html')">
+
+                    View Forecast →
+
+                </button>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="card-heading">
+
+                    <div>
+
+                        <small>FEELS LIKE</small>
+
+                        <h2>33°C</h2>
+
+                        <span>Warm conditions</span>
+
+                    </div>
+
+                    <span class="big-weather-icon">
+                        🌡️
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PARAMETERS -->
+
+        <section class="three-column">
+
+            <div class="dashboard-card">
+
+                <div class="feature-icon">💧</div>
+
+                <small>HUMIDITY</small>
+
+                <h2>68%</h2>
+
+                <p>Moderate humidity level</p>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="feature-icon">🌧️</div>
+
+                <small>RAINFALL</small>
+
+                <h2>12 mm</h2>
+
+                <p>Rain recorded today</p>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="feature-icon">💨</div>
+
+                <small>WIND SPEED</small>
+
+                <h2>14 km/h</h2>
+
+                <p>Moderate wind</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXTRA WEATHER -->
+
+        <section class="dashboard-card" style="margin-top:20px;">
+
+            <div class="card-title">
+
+                <h3>🌡️ Weather Conditions</h3>
+
+                <span>Updated just now</span>
+
+            </div>
+
+            <div class="risk-list">
+
+                <div>
+                    <span>Visibility</span>
+                    <strong>8.5 km</strong>
+                </div>
+
+                <div>
+                    <span>Pressure</span>
+                    <strong>1012 hPa</strong>
+                </div>
+
+                <div>
+                    <span>UV Index</span>
+                    <strong>6</strong>
+                </div>
+
+                <div>
+                    <span>Cloud Cover</span>
+                    <strong>42%</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <button class="primary-btn"
+                onclick="goTo('ai-prediction.html')"
+                style="margin-top:20px;">
+
+            Next: AI Prediction →
+
+        </button>
+
+    </main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+                  </html>
