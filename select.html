@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Select Panchayat</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="app-background"></div>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🌦️
+            <div>
+                <strong>Panchayat</strong>
+                <small>Weather AI</small>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <main class="selection-container">
+
+        <div class="selection-card">
+
+            <div class="selection-icon">
+                📍
+            </div>
+
+            <span class="section-label">
+                LOCATION SETUP
+            </span>
+
+            <h1>
+                Select Your
+                <span>Panchayat</span>
+            </h1>
+
+            <p>
+                Choose the location you want to monitor.
+            </p>
+
+
+            <div class="form-group">
+
+                <label>State</label>
+
+                <select id="state">
+
+                    <option>Telangana</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Karnataka</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>District</label>
+
+                <select id="district">
+
+                    <option>Medak</option>
+                    <option>Sangareddy</option>
+                    <option>Hyderabad</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Mandal</label>
+
+                <select id="mandal">
+
+                    <option>Chegunta</option>
+                    <option>Toopran</option>
+                    <option>Narsapur</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Panchayat / Village</label>
+
+                <select id="village">
+
+                    <option>Chegunta</option>
+                    <option>Village A</option>
+                    <option>Village B</option>
+
+                </select>
+
+            </div>
+
+
+            <button
+                class="primary-btn full-btn"
+                onclick="goTo('dashboard.html')">
+
+                Continue to Dashboard →
+                
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
